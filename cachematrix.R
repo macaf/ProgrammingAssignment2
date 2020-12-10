@@ -1,7 +1,3 @@
-## Put comments here that give an overall description of what your
-## functions do
-
-## Write a short comment describing this function
 
 makeCacheMatrix <- function(x = matrix()) {
   #Make a list with a matrix, and the inverse if exist, if the inverse dont exist the value is null
@@ -16,8 +12,6 @@ makeCacheMatrix <- function(x = matrix()) {
   list(set = set, get = get,
        setinverse= setinverse,
        getinverse = getinverse)
-  
-  
 }
 
 cacheSolve <- function(x, ...){
